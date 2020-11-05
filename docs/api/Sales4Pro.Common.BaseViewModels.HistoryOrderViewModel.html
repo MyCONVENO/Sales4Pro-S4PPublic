@@ -1,0 +1,672 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class HistoryOrderViewModel
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class HistoryOrderViewModel
+   ">
+    <meta name="generator" content="docfx 2.56.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel">
+  
+  
+  <h1 id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel" class="text-break">Class HistoryOrderViewModel
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">GalaSoft.MvvmLight.ObservableObject</span></div>
+    <div class="level2"><span class="xref">GalaSoft.MvvmLight.ViewModelBase</span></div>
+    <div class="level3"><a class="xref" href="Sales4Pro.Common.BaseViewModels.MainViewModelBase.html">MainViewModelBase</a></div>
+    <div class="level4"><a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html">BaseDataViewModelBase</a></div>
+    <div class="level5"><span class="xref">HistoryOrderViewModel</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">GalaSoft.MvvmLight.ICleanup</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html#Sales4Pro_Common_BaseViewModels_BaseDataViewModelBase_IsDeleted">BaseDataViewModelBase.IsDeleted</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html#Sales4Pro_Common_BaseViewModels_BaseDataViewModelBase_IsModified">BaseDataViewModelBase.IsModified</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html#Sales4Pro_Common_BaseViewModels_BaseDataViewModelBase_SyncDateTime">BaseDataViewModelBase.SyncDateTime</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html#Sales4Pro_Common_BaseViewModels_BaseDataViewModelBase_SyncDateTimeTicks">BaseDataViewModelBase.SyncDateTimeTicks</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html#Sales4Pro_Common_BaseViewModels_BaseDataViewModelBase_RaisePropertyChangedAllProps">BaseDataViewModelBase.RaisePropertyChangedAllProps()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.MainViewModelBase.html#Sales4Pro_Common_BaseViewModels_MainViewModelBase_AppVM">MainViewModelBase.AppVM</a>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Cleanup()</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Broadcast&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.RaisePropertyChanged&lt;T&gt;(System.String, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.RaisePropertyChanged&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(System.String, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(T, T, System.Boolean, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.IsInDesignMode</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.IsInDesignModeStatic</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.MessengerInstance</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.VerifyPropertyName(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.RaisePropertyChanged(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.RaisePropertyChanged&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.GetPropertyName&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(System.String, T, T)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.PropertyChangedHandler</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.PropertyChanged</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Sales4Pro.Common.BaseViewModels.html">Sales4Pro.Common.BaseViewModels</a></h6>
+  <h6><strong>Assembly</strong>: Sales4Pro.Common.BaseViewModels.dll</h6>
+  <h5 id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class HistoryOrderViewModel : BaseDataViewModelBase, INotifyPropertyChanged, ICleanup</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel__ctor.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/HistoryOrder/HistoryOrderViewModel.cs/#L8">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel__ctor_" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.#ctor*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel__ctor" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.#ctor">HistoryOrderViewModel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HistoryOrderViewModel()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_AssociationMemberNumber.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.AssociationMemberNumber%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/HistoryOrder/HistoryOrderViewModel.cs/#L54">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_AssociationMemberNumber_" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.AssociationMemberNumber*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_AssociationMemberNumber" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.AssociationMemberNumber">AssociationMemberNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AssociationMemberNumber { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_Currency.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.Currency%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/HistoryOrder/HistoryOrderViewModel.cs/#L50">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_Currency_" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.Currency*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_Currency" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.Currency">Currency</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Currency { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_CustomerOrderNumber.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.CustomerOrderNumber%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/HistoryOrder/HistoryOrderViewModel.cs/#L52">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_CustomerOrderNumber_" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.CustomerOrderNumber*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_CustomerOrderNumber" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.CustomerOrderNumber">CustomerOrderNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CustomerOrderNumber { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_DeliveryAddress.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.DeliveryAddress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/HistoryOrder/HistoryOrderViewModel.cs/#L40">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_DeliveryAddress_" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.DeliveryAddress*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_DeliveryAddress" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.DeliveryAddress">DeliveryAddress</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DeliveryAddressViewModel DeliveryAddress { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.DeliveryAddressViewModel.html">DeliveryAddressViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_HistoryOrderID.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.HistoryOrderID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/HistoryOrder/HistoryOrderViewModel.cs/#L30">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_HistoryOrderID_" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.HistoryOrderID*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_HistoryOrderID" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.HistoryOrderID">HistoryOrderID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string HistoryOrderID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_HistoryOrderItems.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.HistoryOrderItems%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/HistoryOrder/HistoryOrderViewModel.cs/#L56">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_HistoryOrderItems_" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.HistoryOrderItems*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_HistoryOrderItems" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.HistoryOrderItems">HistoryOrderItems</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;HistoryOrderItemViewModel&gt; HistoryOrderItems { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<a class="xref" href="Sales4Pro.Common.BaseViewModels.HistoryOrderItemViewModel.html">HistoryOrderItemViewModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_InvoiceAddress.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.InvoiceAddress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/HistoryOrder/HistoryOrderViewModel.cs/#L42">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_InvoiceAddress_" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.InvoiceAddress*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_InvoiceAddress" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.InvoiceAddress">InvoiceAddress</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InvoiceAddressViewModel InvoiceAddress { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.InvoiceAddressViewModel.html">InvoiceAddressViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_OrderDate.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.OrderDate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/HistoryOrder/HistoryOrderViewModel.cs/#L44">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_OrderDate_" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.OrderDate*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_OrderDate" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.OrderDate">OrderDate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime OrderDate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_OrderNumber.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.OrderNumber%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/HistoryOrder/HistoryOrderViewModel.cs/#L32">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_OrderNumber_" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.OrderNumber*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_OrderNumber" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.OrderNumber">OrderNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string OrderNumber { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_OrderTypeText.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.OrderTypeText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/HistoryOrder/HistoryOrderViewModel.cs/#L34">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_OrderTypeText_" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.OrderTypeText*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_OrderTypeText" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.OrderTypeText">OrderTypeText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string OrderTypeText { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_Remark1.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.Remark1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/HistoryOrder/HistoryOrderViewModel.cs/#L46">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_Remark1_" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.Remark1*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_Remark1" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.Remark1">Remark1</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Remark1 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_Remark2.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.Remark2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/HistoryOrder/HistoryOrderViewModel.cs/#L48">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_Remark2_" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.Remark2*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_Remark2" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.Remark2">Remark2</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Remark2 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_TotalPosCount.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.TotalPosCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/HistoryOrder/HistoryOrderViewModel.cs/#L58">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_TotalPosCount_" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.TotalPosCount*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_TotalPosCount" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.TotalPosCount">TotalPosCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TotalPosCount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_FillDemoItems.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.FillDemoItems%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/HistoryOrder/HistoryOrderViewModel.cs/#L20">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_FillDemoItems_" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.FillDemoItems*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel_FillDemoItems" data-uid="Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel.FillDemoItems">FillDemoItems()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FillDemoItems()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">GalaSoft.MvvmLight.ICleanup</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_HistoryOrderViewModel.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.HistoryOrderViewModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/HistoryOrder/HistoryOrderViewModel.cs/#L6" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

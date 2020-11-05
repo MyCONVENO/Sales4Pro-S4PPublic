@@ -1,0 +1,837 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CustomerPageViewModel
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CustomerPageViewModel
+   ">
+    <meta name="generator" content="docfx 2.56.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel">
+  
+  
+  <h1 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel" class="text-break">Class CustomerPageViewModel
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">GalaSoft.MvvmLight.ObservableObject</span></div>
+    <div class="level2"><span class="xref">GalaSoft.MvvmLight.ViewModelBase</span></div>
+    <div class="level3"><a class="xref" href="Sales4Pro.Common.BaseViewModels.MainViewModelBase.html">MainViewModelBase</a></div>
+    <div class="level4"><span class="xref">CustomerPageViewModel</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">GalaSoft.MvvmLight.ICleanup</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.MainViewModelBase.html#Sales4Pro_Common_BaseViewModels_MainViewModelBase_AppVM">MainViewModelBase.AppVM</a>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Cleanup()</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Broadcast&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.RaisePropertyChanged&lt;T&gt;(System.String, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.RaisePropertyChanged&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(System.String, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(T, T, System.Boolean, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.IsInDesignMode</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.IsInDesignModeStatic</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.MessengerInstance</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.VerifyPropertyName(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.RaisePropertyChanged(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.RaisePropertyChanged&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.GetPropertyName&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(System.String, T, T)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.PropertyChangedHandler</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.PropertyChanged</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Sales4Pro.Common.Customers.ViewModels.html">Sales4Pro.Common.Customers.ViewModels</a></h6>
+  <h6><strong>Assembly</strong>: Sales4Pro.Common.Customers.dll</h6>
+  <h5 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CustomerPageViewModel : MainViewModelBase, INotifyPropertyChanged, ICleanup</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel__ctor.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L29">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel__ctor_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.#ctor*"></a>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel__ctor" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.#ctor">CustomerPageViewModel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CustomerPageViewModel()</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_CustomersBDS.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.CustomersBDS%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L21">View Source</a>
+  </span>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_CustomersBDS" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.CustomersBDS">CustomersBDS</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly CustomersBaseDataService CustomersBDS</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.TopicViewModels.CustomersBaseDataService.html">CustomersBaseDataService</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_SyncDataSV.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.SyncDataSV%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L23">View Source</a>
+  </span>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_SyncDataSV" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.SyncDataSV">SyncDataSV</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly SyncDataService SyncDataSV</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.SyncData.ViewModels.SyncDataService.html">SyncDataService</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_ComputeIsCurrentCustomerNotNull.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.ComputeIsCurrentCustomerNotNull%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L139">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_ComputeIsCurrentCustomerNotNull_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.ComputeIsCurrentCustomerNotNull*"></a>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_ComputeIsCurrentCustomerNotNull" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.ComputeIsCurrentCustomerNotNull">ComputeIsCurrentCustomerNotNull</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ComputeIsCurrentCustomerNotNull { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_CurrentCustomer.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.CurrentCustomer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L66">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_CurrentCustomer_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.CurrentCustomer*"></a>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_CurrentCustomer" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.CurrentCustomer">CurrentCustomer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CustomerViewModel CurrentCustomer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.CustomerViewModel.html">CustomerViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_CurrentMapStyle.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.CurrentMapStyle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L122">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_CurrentMapStyle_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.CurrentMapStyle*"></a>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_CurrentMapStyle" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.CurrentMapStyle">CurrentMapStyle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MapStyle CurrentMapStyle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.UI.Xaml.Controls.Maps.MapStyle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_CustomerCurrentGeopoint.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.CustomerCurrentGeopoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L115">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_CustomerCurrentGeopoint_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.CustomerCurrentGeopoint*"></a>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_CustomerCurrentGeopoint" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.CustomerCurrentGeopoint">CustomerCurrentGeopoint</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Geopoint CustomerCurrentGeopoint { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.Devices.Geolocation.Geopoint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_HasMapCustomers.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.HasMapCustomers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L101">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_HasMapCustomers_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.HasMapCustomers*"></a>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_HasMapCustomers" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.HasMapCustomers">HasMapCustomers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMapCustomers { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_IsMapViewActive.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.IsMapViewActive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L89">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_IsMapViewActive_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.IsMapViewActive*"></a>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_IsMapViewActive" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.IsMapViewActive">IsMapViewActive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMapViewActive { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_IsMapVisible.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.IsMapVisible%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L108">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_IsMapVisible_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.IsMapVisible*"></a>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_IsMapVisible" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.IsMapVisible">IsMapVisible</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMapVisible { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_IsNotesViewActive.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.IsNotesViewActive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L82">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_IsNotesViewActive_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.IsNotesViewActive*"></a>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_IsNotesViewActive" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.IsNotesViewActive">IsNotesViewActive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNotesViewActive { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_IsPrintingViewActive.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.IsPrintingViewActive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L73">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_IsPrintingViewActive_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.IsPrintingViewActive*"></a>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_IsPrintingViewActive" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.IsPrintingViewActive">IsPrintingViewActive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPrintingViewActive { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_MapCustomers.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.MapCustomers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L79">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_MapCustomers_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.MapCustomers*"></a>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_MapCustomers" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.MapCustomers">MapCustomers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CollectionViewSource MapCustomers { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.UI.Xaml.Data.CollectionViewSource</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_MapZoomFactor.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.MapZoomFactor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L129">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_MapZoomFactor_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.MapZoomFactor*"></a>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_MapZoomFactor" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.MapZoomFactor">MapZoomFactor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double MapZoomFactor { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_CloseCurrentCustomer.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.CloseCurrentCustomer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L154">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_CloseCurrentCustomer_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.CloseCurrentCustomer*"></a>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_CloseCurrentCustomer" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.CloseCurrentCustomer">CloseCurrentCustomer()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CloseCurrentCustomer()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_DestroyInstance.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.DestroyInstance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L58">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_DestroyInstance_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.DestroyInstance*"></a>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_DestroyInstance" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.DestroyInstance">DestroyInstance()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DestroyInstance()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_GetInstance.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.GetInstance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L50">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_GetInstance_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.GetInstance*"></a>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_GetInstance" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.GetInstance">GetInstance()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CustomerPageViewModel GetInstance()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.html">CustomerPageViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_GotoMyCurrentGeopoint.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.GotoMyCurrentGeopoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L180">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_GotoMyCurrentGeopoint_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.GotoMyCurrentGeopoint*"></a>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_GotoMyCurrentGeopoint" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.GotoMyCurrentGeopoint">GotoMyCurrentGeopoint()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GotoMyCurrentGeopoint()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_SetCustomerLocation_Windows_Devices_Geolocation_BasicGeoposition_.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.SetCustomerLocation(Windows.Devices.Geolocation.BasicGeoposition)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L185">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_SetCustomerLocation_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.SetCustomerLocation*"></a>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_SetCustomerLocation_Windows_Devices_Geolocation_BasicGeoposition_" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.SetCustomerLocation(Windows.Devices.Geolocation.BasicGeoposition)">SetCustomerLocation(BasicGeoposition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCustomerLocation(BasicGeoposition customerLocation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.Devices.Geolocation.BasicGeoposition</span></td>
+        <td><span class="parametername">customerLocation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_GotoMyCurrentGeopointEvent.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.GotoMyCurrentGeopointEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L27">View Source</a>
+  </span>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_GotoMyCurrentGeopointEvent" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.GotoMyCurrentGeopointEvent">GotoMyCurrentGeopointEvent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler GotoMyCurrentGeopointEvent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_IsMapViewActiveChanged.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.IsMapViewActiveChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L26">View Source</a>
+  </span>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_IsMapViewActiveChanged" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.IsMapViewActiveChanged">IsMapViewActiveChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler IsMapViewActiveChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_PDFCreated.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.PDFCreated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L25">View Source</a>
+  </span>
+  <h4 id="Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel_PDFCreated" data-uid="Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel.PDFCreated">PDFCreated</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;Stream&gt; PDFCreated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">System.IO.Stream</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">GalaSoft.MvvmLight.ICleanup</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_Customers_ViewModels_CustomerPageViewModel.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.Customers.ViewModels.CustomerPageViewModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.Customers/ViewModels/CustomerPageViewModel.cs/#L19" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

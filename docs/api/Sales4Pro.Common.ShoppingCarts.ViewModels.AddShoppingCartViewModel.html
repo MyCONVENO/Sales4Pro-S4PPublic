@@ -1,0 +1,810 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AddShoppingCartViewModel
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AddShoppingCartViewModel
+   ">
+    <meta name="generator" content="docfx 2.56.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel">
+  
+  
+  <h1 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel" class="text-break">Class AddShoppingCartViewModel
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">GalaSoft.MvvmLight.ObservableObject</span></div>
+    <div class="level2"><span class="xref">GalaSoft.MvvmLight.ViewModelBase</span></div>
+    <div class="level3"><a class="xref" href="Sales4Pro.Common.BaseViewModels.MainViewModelBase.html">MainViewModelBase</a></div>
+    <div class="level4"><span class="xref">AddShoppingCartViewModel</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">GalaSoft.MvvmLight.ICleanup</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.MainViewModelBase.html#Sales4Pro_Common_BaseViewModels_MainViewModelBase_AppVM">MainViewModelBase.AppVM</a>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Cleanup()</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Broadcast&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.RaisePropertyChanged&lt;T&gt;(System.String, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.RaisePropertyChanged&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(System.String, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(T, T, System.Boolean, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.IsInDesignMode</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.IsInDesignModeStatic</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.MessengerInstance</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.VerifyPropertyName(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.RaisePropertyChanged(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.RaisePropertyChanged&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.GetPropertyName&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(System.String, T, T)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.PropertyChangedHandler</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.PropertyChanged</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Sales4Pro.Common.ShoppingCarts.ViewModels.html">Sales4Pro.Common.ShoppingCarts.ViewModels</a></h6>
+  <h6><strong>Assembly</strong>: Sales4Pro.Common.ShoppingCarts.dll</h6>
+  <h5 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AddShoppingCartViewModel : MainViewModelBase, INotifyPropertyChanged, ICleanup</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel__ctor.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L18">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel__ctor_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.#ctor*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel__ctor" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.#ctor">AddShoppingCartViewModel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AddShoppingCartViewModel()</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_CatalogBDS.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.CatalogBDS%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L16">View Source</a>
+  </span>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_CatalogBDS" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.CatalogBDS">CatalogBDS</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly CatalogBaseDataService CatalogBDS</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.TopicViewModels.CatalogBaseDataService.html">CatalogBaseDataService</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_CustomersBDS.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.CustomersBDS%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L15">View Source</a>
+  </span>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_CustomersBDS" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.CustomersBDS">CustomersBDS</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly CustomersBaseDataService CustomersBDS</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.TopicViewModels.CustomersBaseDataService.html">CustomersBaseDataService</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_ComputeHasMoreThanOneLabel.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.ComputeHasMoreThanOneLabel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L50">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_ComputeHasMoreThanOneLabel_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.ComputeHasMoreThanOneLabel*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_ComputeHasMoreThanOneLabel" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.ComputeHasMoreThanOneLabel">ComputeHasMoreThanOneLabel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ComputeHasMoreThanOneLabel { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_ComputeHasMoreThanOneSeason.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.ComputeHasMoreThanOneSeason%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L61">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_ComputeHasMoreThanOneSeason_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.ComputeHasMoreThanOneSeason*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_ComputeHasMoreThanOneSeason" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.ComputeHasMoreThanOneSeason">ComputeHasMoreThanOneSeason</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ComputeHasMoreThanOneSeason { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_Labels.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.Labels%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L34">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_Labels_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.Labels*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_Labels" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.Labels">Labels</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Label&gt; Labels { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Sales4Pro.Common.BaseViewModels.Label.html">Label</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_NewShoppingCartViewModel.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.NewShoppingCartViewModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L38">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_NewShoppingCartViewModel_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.NewShoppingCartViewModel*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_NewShoppingCartViewModel" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.NewShoppingCartViewModel">NewShoppingCartViewModel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ShoppingCartViewModel NewShoppingCartViewModel { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.ShoppingCartViewModel.html">ShoppingCartViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_OrderTypeFilterViewModels.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.OrderTypeFilterViewModels%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L44">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_OrderTypeFilterViewModels_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.OrderTypeFilterViewModels*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_OrderTypeFilterViewModels" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.OrderTypeFilterViewModels">OrderTypeFilterViewModels</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;FilterEntryViewModel&gt; OrderTypeFilterViewModels { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<a class="xref" href="Sales4Pro.Common.BaseViewModels.FilterEntryViewModel.html">FilterEntryViewModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_OrderTypes.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.OrderTypes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L33">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_OrderTypes_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.OrderTypes*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_OrderTypes" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.OrderTypes">OrderTypes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;OrderType&gt; OrderTypes { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Sales4Pro.Common.BaseViewModels.OrderType.html">OrderType</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_Seasons.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.Seasons%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L35">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_Seasons_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.Seasons*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_Seasons" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.Seasons">Seasons</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Season&gt; Seasons { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Sales4Pro.Common.BaseViewModels.Season.html">Season</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_DestroyInstance.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.DestroyInstance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L28">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_DestroyInstance_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.DestroyInstance*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_DestroyInstance" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.DestroyInstance">DestroyInstance()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DestroyInstance()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_FillLabelsAsync.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.FillLabelsAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L143">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_FillLabelsAsync_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.FillLabelsAsync*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_FillLabelsAsync" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.FillLabelsAsync">FillLabelsAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task FillLabelsAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_FillOrderTypes.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.FillOrderTypes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L100">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_FillOrderTypes_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.FillOrderTypes*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_FillOrderTypes" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.FillOrderTypes">FillOrderTypes()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FillOrderTypes()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_FillSeasonsAsync_System_String_.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.FillSeasonsAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L149">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_FillSeasonsAsync_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.FillSeasonsAsync*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_FillSeasonsAsync_System_String_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.FillSeasonsAsync(System.String)">FillSeasonsAsync(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task FillSeasonsAsync(string labelNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">labelNumber</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_GetDefaultLabelAsync.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.GetDefaultLabelAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L159">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_GetDefaultLabelAsync_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.GetDefaultLabelAsync*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_GetDefaultLabelAsync" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.GetDefaultLabelAsync">GetDefaultLabelAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Label&gt; GetDefaultLabelAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Sales4Pro.Common.BaseViewModels.Label.html">Label</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_GetDefaultPricelistAsync.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.GetDefaultPricelistAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L169">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_GetDefaultPricelistAsync_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.GetDefaultPricelistAsync*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_GetDefaultPricelistAsync" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.GetDefaultPricelistAsync">GetDefaultPricelistAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Pricelist&gt; GetDefaultPricelistAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Sales4Pro.Common.BaseViewModels.Pricelist.html">Pricelist</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_GetDefaultSeasonAsync.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.GetDefaultSeasonAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L164">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_GetDefaultSeasonAsync_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.GetDefaultSeasonAsync*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_GetDefaultSeasonAsync" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.GetDefaultSeasonAsync">GetDefaultSeasonAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Season&gt; GetDefaultSeasonAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Sales4Pro.Common.BaseViewModels.Season.html">Season</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_InsertShoppingCartAsync.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.InsertShoppingCartAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L207">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_InsertShoppingCartAsync_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.InsertShoppingCartAsync*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_InsertShoppingCartAsync" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.InsertShoppingCartAsync">InsertShoppingCartAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ShoppingCartViewModel&gt; InsertShoppingCartAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Sales4Pro.Common.BaseViewModels.ShoppingCartViewModel.html">ShoppingCartViewModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_PrepareNewShoppingCart.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.PrepareNewShoppingCart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L178">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_PrepareNewShoppingCart_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.PrepareNewShoppingCart*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_PrepareNewShoppingCart" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.PrepareNewShoppingCart">PrepareNewShoppingCart()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task PrepareNewShoppingCart()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_SetDeliveryDates_Sales4Pro_Common_BaseViewModels_ShoppingCartViewModel_.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.SetDeliveryDates(Sales4Pro.Common.BaseViewModels.ShoppingCartViewModel)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L76">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_SetDeliveryDates_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.SetDeliveryDates*"></a>
+  <h4 id="Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel_SetDeliveryDates_Sales4Pro_Common_BaseViewModels_ShoppingCartViewModel_" data-uid="Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel.SetDeliveryDates(Sales4Pro.Common.BaseViewModels.ShoppingCartViewModel)">SetDeliveryDates(ShoppingCartViewModel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDeliveryDates(ShoppingCartViewModel cart)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.ShoppingCartViewModel.html">ShoppingCartViewModel</a></td>
+        <td><span class="parametername">cart</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">GalaSoft.MvvmLight.ICleanup</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_ShoppingCarts_ViewModels_AddShoppingCartViewModel.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.ShoppingCarts.ViewModels.AddShoppingCartViewModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.ShoppingCarts/ViewModels/AddShoppingCartViewModel.cs/#L13" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

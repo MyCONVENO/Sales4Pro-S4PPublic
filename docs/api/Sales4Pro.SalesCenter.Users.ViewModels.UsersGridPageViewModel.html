@@ -1,0 +1,850 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class UsersGridPageViewModel
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class UsersGridPageViewModel
+   ">
+    <meta name="generator" content="docfx 2.56.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel">
+  
+  
+  <h1 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel" class="text-break">Class UsersGridPageViewModel
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">GalaSoft.MvvmLight.ObservableObject</span></div>
+    <div class="level2"><span class="xref">GalaSoft.MvvmLight.ViewModelBase</span></div>
+    <div class="level3"><a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.Helper.MainViewModelBase.html">MainViewModelBase</a></div>
+    <div class="level4"><a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.html">SCFilterViewModelBase</a></div>
+    <div class="level5"><a class="xref" href="Sales4Pro.SalesCenter.Users.MainViewModels.UsersGridPageFilterViewModel.html">UsersGridPageFilterViewModel</a></div>
+    <div class="level6"><span class="xref">UsersGridPageViewModel</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">GalaSoft.MvvmLight.ICleanup</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.Users.MainViewModels.UsersGridPageFilterViewModel.html#Sales4Pro_SalesCenter_Users_MainViewModels_UsersGridPageFilterViewModel_StartTextSearch_System_String_System_String_System_Boolean_">UsersGridPageFilterViewModel.StartTextSearch(String, String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.Users.MainViewModels.UsersGridPageFilterViewModel.html#Sales4Pro_SalesCenter_Users_MainViewModels_UsersGridPageFilterViewModel_ToggleOffAllFilters">UsersGridPageFilterViewModel.ToggleOffAllFilters()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.Users.MainViewModels.UsersGridPageFilterViewModel.html#Sales4Pro_SalesCenter_Users_MainViewModels_UsersGridPageFilterViewModel_GetFilteredUsersList">UsersGridPageFilterViewModel.GetFilteredUsersList()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.Users.MainViewModels.UsersGridPageFilterViewModel.html#Sales4Pro_SalesCenter_Users_MainViewModels_UsersGridPageFilterViewModel_GetUsersAsync_System_Collections_Generic_List_Sales4Pro_SalesCenter_BaseViewModels_ISCFilterEntries__">UsersGridPageFilterViewModel.GetUsersAsync(List&lt;ISCFilterEntries&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.html#Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_FilterChanged">SCFilterViewModelBase.FilterChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.html#Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_SyncFilterChanged">SCFilterViewModelBase.SyncFilterChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.html#Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RulesChanged">SCFilterViewModelBase.RulesChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.html#Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_SelectedFilters">SCFilterViewModelBase.SelectedFilters</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.html#Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_IsSearchHitsPaneVisible">SCFilterViewModelBase.IsSearchHitsPaneVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.html#Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_IsDropTargetEnabled">SCFilterViewModelBase.IsDropTargetEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.html#Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_IsSearchActive">SCFilterViewModelBase.IsSearchActive</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.html#Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_CurrentFilterString">SCFilterViewModelBase.CurrentFilterString</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.html#Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_CurrentTextFilterString">SCFilterViewModelBase.CurrentTextFilterString</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.html#Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_AddOrReplaceFilter_Sales4Pro_SalesCenter_BaseViewModels_SCFilterEntryViewModel_System_Boolean_System_Boolean_">SCFilterViewModelBase.AddOrReplaceFilter(SCFilterEntryViewModel, Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.html#Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RemoveFilter_Sales4Pro_SalesCenter_BaseViewModels_SCFilterEntryViewModel_">SCFilterViewModelBase.RemoveFilter(SCFilterEntryViewModel)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.html#Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RemoveAllFilters_System_Boolean_">SCFilterViewModelBase.RemoveAllFilters(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.html#Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RemoveTextFilter_System_Boolean_">SCFilterViewModelBase.RemoveTextFilter(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.html#Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RemoveFilterType_Sales4Pro_SalesCenter_BaseViewModels_SCFilterTypesEnum_">SCFilterViewModelBase.RemoveFilterType(SCFilterTypesEnum)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.html#Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RaiseFilterChanged">SCFilterViewModelBase.RaiseFilterChanged()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.Helper.MainViewModelBase.html#Sales4Pro_SalesCenter_BaseViewModels_Helper_MainViewModelBase_AppVM">MainViewModelBase.AppVM</a>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Cleanup()</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Broadcast&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.RaisePropertyChanged&lt;T&gt;(System.String, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.RaisePropertyChanged&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(System.String, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(T, T, System.Boolean, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.IsInDesignMode</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.IsInDesignModeStatic</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.MessengerInstance</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.VerifyPropertyName(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.RaisePropertyChanged(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.RaisePropertyChanged&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.GetPropertyName&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(System.String, T, T)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.PropertyChangedHandler</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.PropertyChanged</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Sales4Pro.SalesCenter.Users.ViewModels.html">Sales4Pro.SalesCenter.Users.ViewModels</a></h6>
+  <h6><strong>Assembly</strong>: Sales4Pro.SalesCenter.Users.dll</h6>
+  <h5 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class UsersGridPageViewModel : UsersGridPageFilterViewModel, INotifyPropertyChanged, ICleanup</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel__ctor.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L25">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel__ctor_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.#ctor*"></a>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel__ctor" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.#ctor">UsersGridPageViewModel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UsersGridPageViewModel()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_ComputeHasUsers.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.ComputeHasUsers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L85">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_ComputeHasUsers_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.ComputeHasUsers*"></a>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_ComputeHasUsers" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.ComputeHasUsers">ComputeHasUsers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ComputeHasUsers { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_ComputeSearchHitsCount.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.ComputeSearchHitsCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L96">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_ComputeSearchHitsCount_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.ComputeSearchHitsCount*"></a>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_ComputeSearchHitsCount" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.ComputeSearchHitsCount">ComputeSearchHitsCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ComputeSearchHitsCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_UserGroups.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.UserGroups%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L63">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_UserGroups_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.UserGroups*"></a>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_UserGroups" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.UserGroups">UserGroups</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;UserGroupViewModel&gt; UserGroups { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.UserGroupViewModel.html">UserGroupViewModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_Users.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.Users%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L60">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_Users_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.Users*"></a>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_Users" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.Users">Users</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;UserViewModel&gt; Users { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.UserViewModel.html">UserViewModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_UsersCVS.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.UsersCVS%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L79">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_UsersCVS_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.UsersCVS*"></a>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_UsersCVS" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.UsersCVS">UsersCVS</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CollectionViewSource UsersCVS { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.UI.Xaml.Data.CollectionViewSource</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_UsersTotalCount.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.UsersTotalCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L73">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_UsersTotalCount_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.UsersTotalCount*"></a>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_UsersTotalCount" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.UsersTotalCount">UsersTotalCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int UsersTotalCount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_AddUser_Sales4Pro_SalesCenter_DataAccess_Models_User_.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.AddUser(Sales4Pro.SalesCenter.DataAccess.Models.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L143">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_AddUser_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.AddUser*"></a>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_AddUser_Sales4Pro_SalesCenter_DataAccess_Models_User_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.AddUser(Sales4Pro.SalesCenter.DataAccess.Models.User)">AddUser(User)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task AddUser(User user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.SalesCenter.DataAccess.Models.User.html">User</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_ApplyEmptyTextFilter_System_Boolean_.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.ApplyEmptyTextFilter(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L123">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_ApplyEmptyTextFilter_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.ApplyEmptyTextFilter*"></a>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_ApplyEmptyTextFilter_System_Boolean_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.ApplyEmptyTextFilter(System.Boolean)">ApplyEmptyTextFilter(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ApplyEmptyTextFilter(bool raiseFilterChanged = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">raiseFilterChanged</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_ApplySelectedFiltersAsyncTask.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.ApplySelectedFiltersAsyncTask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L252">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_ApplySelectedFiltersAsyncTask_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.ApplySelectedFiltersAsyncTask*"></a>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_ApplySelectedFiltersAsyncTask" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.ApplySelectedFiltersAsyncTask">ApplySelectedFiltersAsyncTask()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ApplySelectedFiltersAsyncTask()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_DeleteUser_Sales4Pro_SalesCenter_BaseViewModels_UserViewModel_System_Boolean_.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.DeleteUser(Sales4Pro.SalesCenter.BaseViewModels.UserViewModel%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L163">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_DeleteUser_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.DeleteUser*"></a>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_DeleteUser_Sales4Pro_SalesCenter_BaseViewModels_UserViewModel_System_Boolean_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.DeleteUser(Sales4Pro.SalesCenter.BaseViewModels.UserViewModel,System.Boolean)">DeleteUser(UserViewModel, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteUser(UserViewModel userViewModel, bool goBack)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.UserViewModel.html">UserViewModel</a></td>
+        <td><span class="parametername">userViewModel</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">goBack</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_DestroyInstance.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.DestroyInstance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L52">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_DestroyInstance_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.DestroyInstance*"></a>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_DestroyInstance" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.DestroyInstance">DestroyInstance()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DestroyInstance()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_GetInstance.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.GetInstance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L44">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_GetInstance_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.GetInstance*"></a>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_GetInstance" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.GetInstance">GetInstance()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UsersGridPageViewModel GetInstance()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.html">UsersGridPageViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_InsertNewUser_Sales4Pro_SalesCenter_BaseViewModels_UserViewModel_.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.InsertNewUser(Sales4Pro.SalesCenter.BaseViewModels.UserViewModel)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L290">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_InsertNewUser_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.InsertNewUser*"></a>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_InsertNewUser_Sales4Pro_SalesCenter_BaseViewModels_UserViewModel_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.InsertNewUser(Sales4Pro.SalesCenter.BaseViewModels.UserViewModel)">InsertNewUser(UserViewModel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InsertNewUser(UserViewModel newUserViewModel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.UserViewModel.html">UserViewModel</a></td>
+        <td><span class="parametername">newUserViewModel</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_RaiseGoBack.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.RaiseGoBack%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L190">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_RaiseGoBack_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.RaiseGoBack*"></a>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_RaiseGoBack" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.RaiseGoBack">RaiseGoBack()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RaiseGoBack()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_UpdateUser_Sales4Pro_SalesCenter_DataAccess_Models_User_.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.UpdateUser(Sales4Pro.SalesCenter.DataAccess.Models.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L156">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_UpdateUser_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.UpdateUser*"></a>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_UpdateUser_Sales4Pro_SalesCenter_DataAccess_Models_User_" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.UpdateUser(Sales4Pro.SalesCenter.DataAccess.Models.User)">UpdateUser(User)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task UpdateUser(User user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.SalesCenter.DataAccess.Models.User.html">User</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_GoBack.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.GoBack%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L22">View Source</a>
+  </span>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_GoBack" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.GoBack">GoBack</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler GoBack</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_UsersChanged.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.UsersChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L23">View Source</a>
+  </span>
+  <h4 id="Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel_UsersChanged" data-uid="Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel.UsersChanged">UsersChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler UsersChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">GalaSoft.MvvmLight.ICleanup</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_Users_ViewModels_UsersGridPageViewModel.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.Users.ViewModels.UsersGridPageViewModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.Users/ViewModels/UsersGridPageViewModel.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

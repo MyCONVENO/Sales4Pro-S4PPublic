@@ -1,0 +1,1864 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SizerunViewModel
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SizerunViewModel
+   ">
+    <meta name="generator" content="docfx 2.56.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel">
+  
+  
+  <h1 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel" class="text-break">Class SizerunViewModel
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">GalaSoft.MvvmLight.ObservableObject</span></div>
+    <div class="level2"><span class="xref">GalaSoft.MvvmLight.ViewModelBase</span></div>
+    <div class="level3"><a class="xref" href="Sales4Pro.Common.BaseViewModels.MainViewModelBase.html">MainViewModelBase</a></div>
+    <div class="level4"><a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html">BaseDataViewModelBase</a></div>
+    <div class="level5"><span class="xref">SizerunViewModel</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">GalaSoft.MvvmLight.ICleanup</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html#Sales4Pro_Common_BaseViewModels_BaseDataViewModelBase_IsDeleted">BaseDataViewModelBase.IsDeleted</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html#Sales4Pro_Common_BaseViewModels_BaseDataViewModelBase_IsModified">BaseDataViewModelBase.IsModified</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html#Sales4Pro_Common_BaseViewModels_BaseDataViewModelBase_SyncDateTime">BaseDataViewModelBase.SyncDateTime</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html#Sales4Pro_Common_BaseViewModels_BaseDataViewModelBase_SyncDateTimeTicks">BaseDataViewModelBase.SyncDateTimeTicks</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html#Sales4Pro_Common_BaseViewModels_BaseDataViewModelBase_RaisePropertyChangedAllProps">BaseDataViewModelBase.RaisePropertyChangedAllProps()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.MainViewModelBase.html#Sales4Pro_Common_BaseViewModels_MainViewModelBase_AppVM">MainViewModelBase.AppVM</a>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Cleanup()</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Broadcast&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.RaisePropertyChanged&lt;T&gt;(System.String, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.RaisePropertyChanged&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(System.String, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(T, T, System.Boolean, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.IsInDesignMode</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.IsInDesignModeStatic</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.MessengerInstance</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.VerifyPropertyName(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.RaisePropertyChanged(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.RaisePropertyChanged&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.GetPropertyName&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(System.String, T, T)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.PropertyChangedHandler</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.PropertyChanged</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Sales4Pro.Common.BaseViewModels.html">Sales4Pro.Common.BaseViewModels</a></h6>
+  <h6><strong>Assembly</strong>: Sales4Pro.Common.BaseViewModels.dll</h6>
+  <h5 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SizerunViewModel : BaseDataViewModelBase, INotifyPropertyChanged, ICleanup</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel__ctor.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L22">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel__ctor_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.#ctor*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel__ctor" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.#ctor">SizerunViewModel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SizerunViewModel()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel__ctor_Sales4Pro_Common_BaseData_Sizerun_Sales4Pro_Common_BaseViewModels_ColorViewModel_.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.%23ctor(Sales4Pro.Common.BaseData.Sizerun%2CSales4Pro.Common.BaseViewModels.ColorViewModel)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L40">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel__ctor_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.#ctor*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel__ctor_Sales4Pro_Common_BaseData_Sizerun_Sales4Pro_Common_BaseViewModels_ColorViewModel_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.#ctor(Sales4Pro.Common.BaseData.Sizerun,Sales4Pro.Common.BaseViewModels.ColorViewModel)">SizerunViewModel(Sizerun, ColorViewModel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SizerunViewModel(Sizerun sizerun, ColorViewModel parent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseData.Sizerun.html">Sizerun</a></td>
+        <td><span class="parametername">sizerun</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.ColorViewModel.html">ColorViewModel</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel__ctor_Sales4Pro_Common_SyncData_Models_SyncMetadataQuantity_Sales4Pro_Common_BaseViewModels_ColorViewModel_.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.%23ctor(Sales4Pro.Common.SyncData.Models.SyncMetadataQuantity%2CSales4Pro.Common.BaseViewModels.ColorViewModel)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L47">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel__ctor_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.#ctor*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel__ctor_Sales4Pro_Common_SyncData_Models_SyncMetadataQuantity_Sales4Pro_Common_BaseViewModels_ColorViewModel_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.#ctor(Sales4Pro.Common.SyncData.Models.SyncMetadataQuantity,Sales4Pro.Common.BaseViewModels.ColorViewModel)">SizerunViewModel(SyncMetadataQuantity, ColorViewModel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SizerunViewModel(SyncMetadataQuantity quantity, ColorViewModel parent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.SyncData.Models.SyncMetadataQuantity.html">SyncMetadataQuantity</a></td>
+        <td><span class="parametername">quantity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.ColorViewModel.html">ColorViewModel</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel__ctor_Sales4Pro_Common_SyncData_SyncModels_SyncShoppingCartItem_Sales4Pro_Common_BaseViewModels_ColorViewModel_.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.%23ctor(Sales4Pro.Common.SyncData.SyncModels.SyncShoppingCartItem%2CSales4Pro.Common.BaseViewModels.ColorViewModel)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L54">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel__ctor_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.#ctor*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel__ctor_Sales4Pro_Common_SyncData_SyncModels_SyncShoppingCartItem_Sales4Pro_Common_BaseViewModels_ColorViewModel_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.#ctor(Sales4Pro.Common.SyncData.SyncModels.SyncShoppingCartItem,Sales4Pro.Common.BaseViewModels.ColorViewModel)">SizerunViewModel(SyncShoppingCartItem, ColorViewModel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SizerunViewModel(SyncShoppingCartItem syncShoppingCartItem, ColorViewModel parent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.SyncData.SyncModels.SyncShoppingCartItem.html">SyncShoppingCartItem</a></td>
+        <td><span class="parametername">syncShoppingCartItem</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.ColorViewModel.html">ColorViewModel</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_deliveryDateEnd.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.deliveryDateEnd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L314">View Source</a>
+  </span>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_deliveryDateEnd" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.deliveryDateEnd">deliveryDateEnd</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime deliveryDateEnd</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_deliveryDateStart.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.deliveryDateStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L307">View Source</a>
+  </span>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_deliveryDateStart" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.deliveryDateStart">deliveryDateStart</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime deliveryDateStart</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_CalculatedTotalQuantity.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.CalculatedTotalQuantity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L104">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_CalculatedTotalQuantity_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.CalculatedTotalQuantity*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_CalculatedTotalQuantity" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.CalculatedTotalQuantity">CalculatedTotalQuantity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculatedTotalQuantity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeDeliveryDateFromText.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeDeliveryDateFromText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L453">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeDeliveryDateFromText_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeDeliveryDateFromText*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeDeliveryDateFromText" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeDeliveryDateFromText">ComputeDeliveryDateFromText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ComputeDeliveryDateFromText { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeDeliveryDateStartText.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeDeliveryDateStartText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L376">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeDeliveryDateStartText_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeDeliveryDateStartText*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeDeliveryDateStartText" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeDeliveryDateStartText">ComputeDeliveryDateStartText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ComputeDeliveryDateStartText { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeDeliveryDateText.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeDeliveryDateText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L458">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeDeliveryDateText_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeDeliveryDateText*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeDeliveryDateText" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeDeliveryDateText">ComputeDeliveryDateText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ComputeDeliveryDateText { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeDeliveryStartDateText.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeDeliveryStartDateText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L387">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeDeliveryStartDateText_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeDeliveryStartDateText*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeDeliveryStartDateText" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeDeliveryStartDateText">ComputeDeliveryStartDateText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ComputeDeliveryStartDateText { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeFinalPriceWithCurrency.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeFinalPriceWithCurrency%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L411">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeFinalPriceWithCurrency_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeFinalPriceWithCurrency*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeFinalPriceWithCurrency" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeFinalPriceWithCurrency">ComputeFinalPriceWithCurrency</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ComputeFinalPriceWithCurrency { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeFinalValueText.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeFinalValueText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L422">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeFinalValueText_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeFinalValueText*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeFinalValueText" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeFinalValueText">ComputeFinalValueText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ComputeFinalValueText { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeHasCustomerArticleNumber.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeHasCustomerArticleNumber%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L433">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeHasCustomerArticleNumber_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeHasCustomerArticleNumber*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeHasCustomerArticleNumber" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeHasCustomerArticleNumber">ComputeHasCustomerArticleNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ComputeHasCustomerArticleNumber { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeHasRemark.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeHasRemark%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L438">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeHasRemark_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeHasRemark*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeHasRemark" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeHasRemark">ComputeHasRemark</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ComputeHasRemark { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeHasRemark2.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeHasRemark2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L443">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeHasRemark2_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeHasRemark2*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeHasRemark2" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeHasRemark2">ComputeHasRemark2</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ComputeHasRemark2 { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeHasShoppingCartItemDiscount.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeHasShoppingCartItemDiscount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L448">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeHasShoppingCartItemDiscount_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeHasShoppingCartItemDiscount*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeHasShoppingCartItemDiscount" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeHasShoppingCartItemDiscount">ComputeHasShoppingCartItemDiscount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ComputeHasShoppingCartItemDiscount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeIsAvailable.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeIsAvailable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L371">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeIsAvailable_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeIsAvailable*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeIsAvailable" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeIsAvailable">ComputeIsAvailable</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ComputeIsAvailable { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeIsDeliveryDateModified.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeIsDeliveryDateModified%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L468">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeIsDeliveryDateModified_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeIsDeliveryDateModified*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeIsDeliveryDateModified" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeIsDeliveryDateModified">ComputeIsDeliveryDateModified</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ComputeIsDeliveryDateModified { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeIsDeliveryDateNotModified.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeIsDeliveryDateNotModified%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L473">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeIsDeliveryDateNotModified_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeIsDeliveryDateNotModified*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeIsDeliveryDateNotModified" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeIsDeliveryDateNotModified">ComputeIsDeliveryDateNotModified</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ComputeIsDeliveryDateNotModified { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeModifiedDeliveryDateStartText.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeModifiedDeliveryDateStartText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L463">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeModifiedDeliveryDateStartText_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeModifiedDeliveryDateStartText*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeModifiedDeliveryDateStartText" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeModifiedDeliveryDateStartText">ComputeModifiedDeliveryDateStartText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ComputeModifiedDeliveryDateStartText { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeTotalQuantityWithUnit.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeTotalQuantityWithUnit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L400">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeTotalQuantityWithUnit_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeTotalQuantityWithUnit*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ComputeTotalQuantityWithUnit" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ComputeTotalQuantityWithUnit">ComputeTotalQuantityWithUnit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ComputeTotalQuantityWithUnit { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_Currency.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.Currency%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L158">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_Currency_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.Currency*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_Currency" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.Currency">Currency</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Currency { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_CustomerArticleNumber.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.CustomerArticleNumber%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L179">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_CustomerArticleNumber_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.CustomerArticleNumber*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_CustomerArticleNumber" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.CustomerArticleNumber">CustomerArticleNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CustomerArticleNumber { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_DeliveryDateEnd.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.DeliveryDateEnd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L315">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_DeliveryDateEnd_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.DeliveryDateEnd*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_DeliveryDateEnd" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.DeliveryDateEnd">DeliveryDateEnd</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime DeliveryDateEnd { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_DeliveryDateStart.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.DeliveryDateStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L308">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_DeliveryDateStart_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.DeliveryDateStart*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_DeliveryDateStart" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.DeliveryDateStart">DeliveryDateStart</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime DeliveryDateStart { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_DeliveryDecadeText.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.DeliveryDecadeText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L294">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_DeliveryDecadeText_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.DeliveryDecadeText*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_DeliveryDecadeText" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.DeliveryDecadeText">DeliveryDecadeText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DeliveryDecadeText { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_DeliveryStartDecades.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.DeliveryStartDecades%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L101">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_DeliveryStartDecades_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.DeliveryStartDecades*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_DeliveryStartDecades" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.DeliveryStartDecades">DeliveryStartDecades</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;string&gt; DeliveryStartDecades { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_FinalPrice.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.FinalPrice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L124">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_FinalPrice_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.FinalPrice*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_FinalPrice" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.FinalPrice">FinalPrice</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double FinalPrice { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_IsDiscountsPaneVisible.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.IsDiscountsPaneVisible%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L117">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_IsDiscountsPaneVisible_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.IsDiscountsPaneVisible*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_IsDiscountsPaneVisible" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.IsDiscountsPaneVisible">IsDiscountsPaneVisible</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsDiscountsPaneVisible { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_IsFreeOfCharge.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.IsFreeOfCharge%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L234">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_IsFreeOfCharge_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.IsFreeOfCharge*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_IsFreeOfCharge" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.IsFreeOfCharge">IsFreeOfCharge</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsFreeOfCharge { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_IsSampleItem.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.IsSampleItem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L247">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_IsSampleItem_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.IsSampleItem*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_IsSampleItem" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.IsSampleItem">IsSampleItem</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSampleItem { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ModifiedDeliveryDateEnd.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ModifiedDeliveryDateEnd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L279">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ModifiedDeliveryDateEnd_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ModifiedDeliveryDateEnd*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ModifiedDeliveryDateEnd" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ModifiedDeliveryDateEnd">ModifiedDeliveryDateEnd</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime ModifiedDeliveryDateEnd { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ModifiedDeliveryDateStart.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ModifiedDeliveryDateStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L262">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ModifiedDeliveryDateStart_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ModifiedDeliveryDateStart*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ModifiedDeliveryDateStart" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ModifiedDeliveryDateStart">ModifiedDeliveryDateStart</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime ModifiedDeliveryDateStart { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_Parent.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.Parent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L327">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_Parent_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.Parent*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_Parent" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.Parent">Parent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ColorViewModel Parent { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.ColorViewModel.html">ColorViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_Price.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.Price%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L361">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_Price_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.Price*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_Price" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.Price">Price</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PriceViewModel Price { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.PriceViewModel.html">PriceViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_Remark01.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.Remark01%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L207">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_Remark01_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.Remark01*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_Remark01" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.Remark01">Remark01</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Remark01 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_Remark02.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.Remark02%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L221">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_Remark02_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.Remark02*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_Remark02" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.Remark02">Remark02</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Remark02 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ShoppingCartItemDiscount.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ShoppingCartItemDiscount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L193">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ShoppingCartItemDiscount_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ShoppingCartItemDiscount*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ShoppingCartItemDiscount" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ShoppingCartItemDiscount">ShoppingCartItemDiscount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double ShoppingCartItemDiscount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_SingleSizeList.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.SingleSizeList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L96">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_SingleSizeList_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.SingleSizeList*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_SingleSizeList" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.SingleSizeList">SingleSizeList</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;SingleSizeViewModel&gt; SingleSizeList { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<a class="xref" href="Sales4Pro.Common.BaseViewModels.SingleSizeViewModel.html">SingleSizeViewModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_SizerunID.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.SizerunID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L77">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_SizerunID_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.SizerunID*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_SizerunID" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.SizerunID">SizerunID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SizerunID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_SizerunName.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.SizerunName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L82">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_SizerunName_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.SizerunName*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_SizerunName" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.SizerunName">SizerunName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SizerunName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_SizerunNumber.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.SizerunNumber%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L88">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_SizerunNumber_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.SizerunNumber*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_SizerunNumber" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.SizerunNumber">SizerunNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SizerunNumber { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_TotalBuyingPrice.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.TotalBuyingPrice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L151">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_TotalBuyingPrice_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.TotalBuyingPrice*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_TotalBuyingPrice" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.TotalBuyingPrice">TotalBuyingPrice</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double TotalBuyingPrice { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_TotalFinalPrice.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.TotalFinalPrice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L131">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_TotalFinalPrice_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.TotalFinalPrice*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_TotalFinalPrice" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.TotalFinalPrice">TotalFinalPrice</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double TotalFinalPrice { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_TotalSalesPrice.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.TotalSalesPrice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L143">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_TotalSalesPrice_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.TotalSalesPrice*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_TotalSalesPrice" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.TotalSalesPrice">TotalSalesPrice</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double TotalSalesPrice { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_Unit.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.Unit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L165">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_Unit_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.Unit*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_Unit" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.Unit">Unit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Unit { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_ApplyMaxDigits_System_Int32_.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.ApplyMaxDigits(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L491">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ApplyMaxDigits_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ApplyMaxDigits*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_ApplyMaxDigits_System_Int32_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.ApplyMaxDigits(System.Int32)">ApplyMaxDigits(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ApplyMaxDigits(int maxDigits = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxDigits</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_DuplicateSizerun.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.DuplicateSizerun%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L482">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_DuplicateSizerun_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.DuplicateSizerun*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_DuplicateSizerun" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.DuplicateSizerun">DuplicateSizerun()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DuplicateSizerun()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_GetModel.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.GetModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L763">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_GetModel_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.GetModel*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_GetModel" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.GetModel">GetModel()</h4>
+  <div class="markdown level1 summary"><p>MC 01.11.2020</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SyncMetadataQuantity GetModel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.SyncData.Models.SyncMetadataQuantity.html">SyncMetadataQuantity</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_PasteMetadataToViewModel_Sales4Pro_Common_SyncData_SyncModels_SyncShoppingCartItem_.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.PasteMetadataToViewModel(Sales4Pro.Common.SyncData.SyncModels.SyncShoppingCartItem)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L66">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_PasteMetadataToViewModel_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.PasteMetadataToViewModel*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_PasteMetadataToViewModel_Sales4Pro_Common_SyncData_SyncModels_SyncShoppingCartItem_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.PasteMetadataToViewModel(Sales4Pro.Common.SyncData.SyncModels.SyncShoppingCartItem)">PasteMetadataToViewModel(SyncShoppingCartItem)</h4>
+  <div class="markdown level1 summary"><p>MC 21.09.2020</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PasteMetadataToViewModel(SyncShoppingCartItem syncShoppingCartItem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.SyncData.SyncModels.SyncShoppingCartItem.html">SyncShoppingCartItem</a></td>
+        <td><span class="parametername">syncShoppingCartItem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_SetPriceAsync_System_String_System_String_.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.SetPriceAsync(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L621">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_SetPriceAsync_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.SetPriceAsync*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_SetPriceAsync_System_String_System_String_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.SetPriceAsync(System.String,System.String)">SetPriceAsync(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SetPriceAsync(string PricelistID, string CountryCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">PricelistID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">CountryCode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel_SetQty_Sales4Pro_Common_BaseViewModels_SingleSizeViewModel_.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel.SetQty(Sales4Pro.Common.BaseViewModels.SingleSizeViewModel)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L562">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_SetQty_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.SetQty*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_SizerunViewModel_SetQty_Sales4Pro_Common_BaseViewModels_SingleSizeViewModel_" data-uid="Sales4Pro.Common.BaseViewModels.SizerunViewModel.SetQty(Sales4Pro.Common.BaseViewModels.SingleSizeViewModel)">SetQty(SingleSizeViewModel)</h4>
+  <div class="markdown level1 summary"><p>MC 01.11.2020</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetQty(SingleSizeViewModel singleSizeViewModel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.SingleSizeViewModel.html">SingleSizeViewModel</a></td>
+        <td><span class="parametername">singleSizeViewModel</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">GalaSoft.MvvmLight.ICleanup</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_SizerunViewModel.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.SizerunViewModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Sizerun/SizerunViewModel.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

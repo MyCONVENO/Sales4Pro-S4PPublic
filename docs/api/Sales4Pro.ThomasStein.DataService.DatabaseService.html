@@ -1,0 +1,610 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DatabaseService
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DatabaseService
+   ">
+    <meta name="generator" content="docfx 2.56.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Sales4Pro.ThomasStein.DataService.DatabaseService">
+  
+  
+  <h1 id="Sales4Pro_ThomasStein_DataService_DatabaseService" data-uid="Sales4Pro.ThomasStein.DataService.DatabaseService" class="text-break">Class DatabaseService
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html">BasicDatabaseService</a></div>
+    <div class="level2"><span class="xref">DatabaseService</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetShoppingCartAsync_System_String_">BasicDatabaseService.GetShoppingCartAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetExportFileName_ShoppingCart_System_Int32_">BasicDatabaseService.GetExportFileName(ShoppingCart, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetOrderType2IDs">BasicDatabaseService.GetOrderType2IDs()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetShoppingCartCountAsync">BasicDatabaseService.GetShoppingCartCountAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetShoppingCartsAsync_List_IFilterEntries__">BasicDatabaseService.GetShoppingCartsAsync(List&lt;IFilterEntries&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetOrdersAsync_List_IFilterEntries__">BasicDatabaseService.GetOrdersAsync(List&lt;IFilterEntries&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetPendingOrdersCountAsync">BasicDatabaseService.GetPendingOrdersCountAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetShoppingCartItemsAsync_System_String_System_String_System_Boolean_">BasicDatabaseService.GetShoppingCartItemsAsync(String, String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_SaveShoppingCartAsync_ShoppingCart_">BasicDatabaseService.SaveShoppingCartAsync(ShoppingCart)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetTotalCatalogItemsCountAsync">BasicDatabaseService.GetTotalCatalogItemsCountAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetCatalogItemsAsync_List_IFilterEntries__List_IRuleEntries__System_Boolean_System_String_System_Boolean_System_Nullable_DateTime__System_Nullable_DateTime__">BasicDatabaseService.GetCatalogItemsAsync(List&lt;IFilterEntries&gt;, List&lt;IRuleEntries&gt;, Boolean, String, Boolean, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_CheckTotalQtyInShoppingCartItemsAsync_List_ShoppingCartItem__System_String_">BasicDatabaseService.CheckTotalQtyInShoppingCartItemsAsync(List&lt;ShoppingCartItem&gt;, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_SaveShoppingCartItemAsync_ShoppingCartItem_System_Boolean_">BasicDatabaseService.SaveShoppingCartItemAsync(ShoppingCartItem, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetCurrentUserAsync">BasicDatabaseService.GetCurrentUserAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetClientsAsync">BasicDatabaseService.GetClientsAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetCurrentClientAsync">BasicDatabaseService.GetCurrentClientAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetAssociationsAsync">BasicDatabaseService.GetAssociationsAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetAssociationMembersAsync_System_String_">BasicDatabaseService.GetAssociationMembersAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetLabelsFilterAsync">BasicDatabaseService.GetLabelsFilterAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetLabelsAsync">BasicDatabaseService.GetLabelsAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetDefaultLabelAsync">BasicDatabaseService.GetDefaultLabelAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetSeasonsFilterAsync_System_String_">BasicDatabaseService.GetSeasonsFilterAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetSeasonsFilterAsync">BasicDatabaseService.GetSeasonsFilterAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetSeasonAsync_System_String_">BasicDatabaseService.GetSeasonAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetSeasonByIDAsync_System_String_">BasicDatabaseService.GetSeasonByIDAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetDefaultSeasonAsync">BasicDatabaseService.GetDefaultSeasonAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_SaveColorAsync_Color_">BasicDatabaseService.SaveColorAsync(Color)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetColorSizerunsAsync_System_String_">BasicDatabaseService.GetColorSizerunsAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetSizerunsFromSizeAsync_System_String_System_Boolean_">BasicDatabaseService.GetSizerunsFromSizeAsync(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetSizerunFromEANAsync_System_String_System_String_">BasicDatabaseService.GetSizerunFromEANAsync(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetAssortmentsAsync_System_String_System_String_System_Boolean_">BasicDatabaseService.GetAssortmentsAsync(String, String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetDisposableFixAssortmentsAsync_System_String_">BasicDatabaseService.GetDisposableFixAssortmentsAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetAssortmentsCacheAsync_FilterEntryItem_">BasicDatabaseService.GetAssortmentsCacheAsync(FilterEntryItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetColorPriceAsync_System_String_System_String_System_String_System_String_">BasicDatabaseService.GetColorPriceAsync(String, String, String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_SetColorPricesAsync_List_ShoppingCartItem__System_String_">BasicDatabaseService.SetColorPricesAsync(List&lt;ShoppingCartItem&gt;, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_ResetShoppingCartPrices_System_String_">BasicDatabaseService.ResetShoppingCartPrices(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetCustomersCountAsync">BasicDatabaseService.GetCustomersCountAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_SaveCustomerAsync_Customer_">BasicDatabaseService.SaveCustomerAsync(Customer)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetCustomerVCardQRCodeAsync_System_String_System_Int32_System_Int32_">BasicDatabaseService.GetCustomerVCardQRCodeAsync(String, Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetCustomersAsync_List_IFilterEntries__">BasicDatabaseService.GetCustomersAsync(List&lt;IFilterEntries&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetDeliveryTypesAsync">BasicDatabaseService.GetDeliveryTypesAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetShippingsAsync_System_String_">BasicDatabaseService.GetShippingsAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_SetShippingInShoppingCartItemsAsync_Shipping_System_String_">BasicDatabaseService.SetShippingInShoppingCartItemsAsync(Shipping, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetPaymentTermsAsync">BasicDatabaseService.GetPaymentTermsAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_SaveCustomerCollectionAsync_CustomerCollection_">BasicDatabaseService.SaveCustomerCollectionAsync(CustomerCollection)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetCustomerCollectionsAsync">BasicDatabaseService.GetCustomerCollectionsAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_SaveCustomerCollectionEntryAsync_CustomerCollection_Customer_">BasicDatabaseService.SaveCustomerCollectionEntryAsync(CustomerCollection, Customer)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetCustomerCollectionEntriesAsync_System_String_">BasicDatabaseService.GetCustomerCollectionEntriesAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetCustomerNotesAsync_System_String_">BasicDatabaseService.GetCustomerNotesAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_SaveCustomerNoteAsync_CustomerNote_">BasicDatabaseService.SaveCustomerNoteAsync(CustomerNote)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetContactPersonsAsync_System_String_">BasicDatabaseService.GetContactPersonsAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetDeliveryAddressesAsync_System_String_">BasicDatabaseService.GetDeliveryAddressesAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetInvoiceAddressesAsync_System_String_">BasicDatabaseService.GetInvoiceAddressesAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetPredefinedTextSnippetsAsync">BasicDatabaseService.GetPredefinedTextSnippetsAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetPricelistsAsync">BasicDatabaseService.GetPricelistsAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetDefaultPricelistAsync_System_String_">BasicDatabaseService.GetDefaultPricelistAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_SetDeliveryDecadeTextInShoppingCartItemsAsync_System_String_System_String_">BasicDatabaseService.SetDeliveryDecadeTextInShoppingCartItemsAsync(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_SetDeliveryDateStartInShoppingCartItemsAsync_System_String_DateTime_">BasicDatabaseService.SetDeliveryDateStartInShoppingCartItemsAsync(String, DateTime)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_SetDeliveryDateEndInShoppingCartItemsAsync_System_String_DateTime_">BasicDatabaseService.SetDeliveryDateEndInShoppingCartItemsAsync(String, DateTime)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetDashboardVideoFiles">BasicDatabaseService.GetDashboardVideoFiles()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetPreorderDiscountInitialValueAsync_System_String_System_String_">BasicDatabaseService.GetPreorderDiscountInitialValueAsync(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetEarlyBirdDiscountInitialValueAsync_System_String_System_String_">BasicDatabaseService.GetEarlyBirdDiscountInitialValueAsync(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetPreorderDiscountAsync_System_String_System_String_">BasicDatabaseService.GetPreorderDiscountAsync(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetEarlyBirdDiscountAsync_System_String_System_String_">BasicDatabaseService.GetEarlyBirdDiscountAsync(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetCollectionDiscountAsync_System_String_System_String_">BasicDatabaseService.GetCollectionDiscountAsync(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetQuantityDiscountAsync_System_String_System_String_">BasicDatabaseService.GetQuantityDiscountAsync(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetValutaAsync_System_String_System_String_">BasicDatabaseService.GetValutaAsync(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetPOIsAroundMeAsync_System_Double_System_Double_List_IFilterEntries__">BasicDatabaseService.GetPOIsAroundMeAsync(Double, Double, List&lt;IFilterEntries&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetConfirmPDF_System_String_System_Boolean_System_Boolean_">BasicDatabaseService.GetConfirmPDF(String, Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetOrderOverviewPDF_DateTime_DateTime_">BasicDatabaseService.GetOrderOverviewPDF(DateTime, DateTime)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetOrderOverviewPDF_System_String_">BasicDatabaseService.GetOrderOverviewPDF(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetCommisionTotal_DateTime_DateTime_">BasicDatabaseService.GetCommisionTotal(DateTime, DateTime)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetSeasonCourse_System_String_">BasicDatabaseService.GetSeasonCourse(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetYearValuesPDF_System_String_">BasicDatabaseService.GetYearValuesPDF(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetSeasonCompare_System_String_">BasicDatabaseService.GetSeasonCompare(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetArticleInfoPDF_System_String_System_String_">BasicDatabaseService.GetArticleInfoPDF(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetCustomerInfoPDF_System_String_">BasicDatabaseService.GetCustomerInfoPDF(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetCatalogPDF_System_String_System_String_">BasicDatabaseService.GetCatalogPDF(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetShoppingCartItemCatalogPDFAsync_List_IFilterEntries__System_String_">BasicDatabaseService.GetShoppingCartItemCatalogPDFAsync(List&lt;IFilterEntries&gt;, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetAgentFilterAsync">BasicDatabaseService.GetAgentFilterAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetAgentsAsync">BasicDatabaseService.GetAgentsAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetDefaultAgentAsync">BasicDatabaseService.GetDefaultAgentAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetUserAgentsAsync">BasicDatabaseService.GetUserAgentsAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetCustomerGroupFiltersAsync_System_String_">BasicDatabaseService.GetCustomerGroupFiltersAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetCustomergroupToggleSwitchStatusAsync">BasicDatabaseService.GetCustomergroupToggleSwitchStatusAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_AnyHierarchyFilter01Async_System_String_">BasicDatabaseService.AnyHierarchyFilter01Async(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_AnyHierarchyFilter02Async_System_String_">BasicDatabaseService.AnyHierarchyFilter02Async(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_AnyHierarchyFilter03Async_System_String_">BasicDatabaseService.AnyHierarchyFilter03Async(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_AnyHierarchyFilter04Async_System_String_">BasicDatabaseService.AnyHierarchyFilter04Async(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_AnyHierarchyFilter05Async_System_String_">BasicDatabaseService.AnyHierarchyFilter05Async(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetHierarchyFilter01Async_System_String_">BasicDatabaseService.GetHierarchyFilter01Async(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetHierarchyFilter02Async_System_String_System_String_">BasicDatabaseService.GetHierarchyFilter02Async(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetHierarchyFilter03Async_System_String_System_String_System_String_">BasicDatabaseService.GetHierarchyFilter03Async(String, String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetHierarchyFilter04Async_System_String_System_String_System_String_System_String_">BasicDatabaseService.GetHierarchyFilter04Async(String, String, String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetHierarchyFilter05Async_System_String_System_String_System_String_System_String_System_String_">BasicDatabaseService.GetHierarchyFilter05Async(String, String, String, String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetArticleCollectionNameFiltersAsync_System_String_System_Boolean_">BasicDatabaseService.GetArticleCollectionNameFiltersAsync(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetColorStatusFiltersAsync">BasicDatabaseService.GetColorStatusFiltersAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetEASColorsFiltersAsync_System_String_System_Boolean_">BasicDatabaseService.GetEASColorsFiltersAsync(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetEASTypeFiltersAsync_System_String_System_Boolean_">BasicDatabaseService.GetEASTypeFiltersAsync(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetSizeFiltersAsync">BasicDatabaseService.GetSizeFiltersAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetFormFiltersAsync_System_String_System_Boolean_">BasicDatabaseService.GetFormFiltersAsync(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetBasicDatabaseServiceInstance">BasicDatabaseService.GetBasicDatabaseServiceInstance()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_dbConnectionBaseData">BasicDatabaseService.dbConnectionBaseData</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_dbConnectionShoppingCartData">BasicDatabaseService.dbConnectionShoppingCartData</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_dbConnection_ShoppingCartDataUpload">BasicDatabaseService.dbConnection_ShoppingCartDataUpload</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_dbConnection_CustomerAttachmentsUpload">BasicDatabaseService.dbConnection_CustomerAttachmentsUpload</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_SyncProgressChanged">BasicDatabaseService.SyncProgressChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_ShoppingCartItemCollectionChanged">BasicDatabaseService.ShoppingCartItemCollectionChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_ShoppingCartCollectionChanged">BasicDatabaseService.ShoppingCartCollectionChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_IsInternetAvailable">BasicDatabaseService.IsInternetAvailable</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_RaiseShoppingCartCollectionChanged">BasicDatabaseService.RaiseShoppingCartCollectionChanged()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_RaiseShoppingCartCollectionChanged_CollectionChangedActionEnum_ShoppingCart_">BasicDatabaseService.RaiseShoppingCartCollectionChanged(CollectionChangedActionEnum, ShoppingCart)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_initializeDataServiceAsync">BasicDatabaseService.initializeDataServiceAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetH2StreamAsync_System_String_">BasicDatabaseService.GetH2StreamAsync(String)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Sales4Pro.ThomasStein.DataService.html">Sales4Pro.ThomasStein.DataService</a></h6>
+  <h6><strong>Assembly</strong>: Sales4Pro.ThomasStein.Main.dll</h6>
+  <h5 id="Sales4Pro_ThomasStein_DataService_DatabaseService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DatabaseService : BasicDatabaseService</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_ThomasStein_DataService_DatabaseService__ctor.md&amp;value=---%0Auid%3A%20Sales4Pro.ThomasStein.DataService.DatabaseService.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro_Trash/ThomasStein/Sales4Pro.ThomasStein.Main/DatabaseService.cs/#L22">View Source</a>
+  </span>
+  <a id="Sales4Pro_ThomasStein_DataService_DatabaseService__ctor_" data-uid="Sales4Pro.ThomasStein.DataService.DatabaseService.#ctor*"></a>
+  <h4 id="Sales4Pro_ThomasStein_DataService_DatabaseService__ctor" data-uid="Sales4Pro.ThomasStein.DataService.DatabaseService.#ctor">DatabaseService()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DatabaseService()</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_ThomasStein_DataService_DatabaseService_GetAllDecades.md&amp;value=---%0Auid%3A%20Sales4Pro.ThomasStein.DataService.DatabaseService.GetAllDecades%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro_Trash/ThomasStein/Sales4Pro.ThomasStein.Main/DatabaseService.cs/#L26">View Source</a>
+  </span>
+  <a id="Sales4Pro_ThomasStein_DataService_DatabaseService_GetAllDecades_" data-uid="Sales4Pro.ThomasStein.DataService.DatabaseService.GetAllDecades*"></a>
+  <h4 id="Sales4Pro_ThomasStein_DataService_DatabaseService_GetAllDecades" data-uid="Sales4Pro.ThomasStein.DataService.DatabaseService.GetAllDecades">GetAllDecades()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override List&lt;RuleEntryItem&gt; GetAllDecades()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">RuleEntryItem</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Sales4Pro.Common.BaseDataservice.BasicDatabaseService.html#Sales4Pro_Common_BaseDataservice_BasicDatabaseService_GetAllDecades">BasicDatabaseService.GetAllDecades()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_ThomasStein_DataService_DatabaseService_GetDecades_DateTime_DateTime_.md&amp;value=---%0Auid%3A%20Sales4Pro.ThomasStein.DataService.DatabaseService.GetDecades(DateTime%2CDateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro_Trash/ThomasStein/Sales4Pro.ThomasStein.Main/DatabaseService.cs/#L83">View Source</a>
+  </span>
+  <a id="Sales4Pro_ThomasStein_DataService_DatabaseService_GetDecades_" data-uid="Sales4Pro.ThomasStein.DataService.DatabaseService.GetDecades*"></a>
+  <h4 id="Sales4Pro_ThomasStein_DataService_DatabaseService_GetDecades_DateTime_DateTime_" data-uid="Sales4Pro.ThomasStein.DataService.DatabaseService.GetDecades(DateTime,DateTime)">GetDecades(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override List&lt;string&gt; GetDecades(DateTime start, DateTime end)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">end</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_ThomasStein_DataService_DatabaseService_GetInstance.md&amp;value=---%0Auid%3A%20Sales4Pro.ThomasStein.DataService.DatabaseService.GetInstance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro_Trash/ThomasStein/Sales4Pro.ThomasStein.Main/DatabaseService.cs/#L14">View Source</a>
+  </span>
+  <a id="Sales4Pro_ThomasStein_DataService_DatabaseService_GetInstance_" data-uid="Sales4Pro.ThomasStein.DataService.DatabaseService.GetInstance*"></a>
+  <h4 id="Sales4Pro_ThomasStein_DataService_DatabaseService_GetInstance" data-uid="Sales4Pro.ThomasStein.DataService.DatabaseService.GetInstance">GetInstance()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DatabaseService GetInstance()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.ThomasStein.DataService.DatabaseService.html">DatabaseService</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_ThomasStein_DataService_DatabaseService.md&amp;value=---%0Auid%3A%20Sales4Pro.ThomasStein.DataService.DatabaseService%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro_Trash/ThomasStein/Sales4Pro.ThomasStein.Main/DatabaseService.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

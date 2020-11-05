@@ -1,0 +1,691 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SCFilterViewModelBase
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SCFilterViewModelBase
+   ">
+    <meta name="generator" content="docfx 2.56.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase">
+  
+  
+  <h1 id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase" class="text-break">Class SCFilterViewModelBase
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">GalaSoft.MvvmLight.ObservableObject</span></div>
+    <div class="level2"><span class="xref">GalaSoft.MvvmLight.ViewModelBase</span></div>
+    <div class="level3"><a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.Helper.MainViewModelBase.html">MainViewModelBase</a></div>
+    <div class="level4"><span class="xref">SCFilterViewModelBase</span></div>
+      <div class="level5"><a class="xref" href="Sales4Pro.SalesCenter.Agents.MainViewModels.AgentsGridPageFilterViewModel.html">AgentsGridPageFilterViewModel</a></div>
+      <div class="level5"><a class="xref" href="Sales4Pro.SalesCenter.Clients.MainViewModels.ClientsGridPageFilterViewModel.html">ClientsGridPageFilterViewModel</a></div>
+      <div class="level5"><a class="xref" href="Sales4Pro.SalesCenter.Users.MainViewModels.UsersGridPageFilterViewModel.html">UsersGridPageFilterViewModel</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">GalaSoft.MvvmLight.ICleanup</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.Helper.MainViewModelBase.html#Sales4Pro_SalesCenter_BaseViewModels_Helper_MainViewModelBase_AppVM">MainViewModelBase.AppVM</a>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Cleanup()</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Broadcast&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.RaisePropertyChanged&lt;T&gt;(System.String, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.RaisePropertyChanged&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(System.String, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(T, T, System.Boolean, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.IsInDesignMode</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.IsInDesignModeStatic</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.MessengerInstance</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.VerifyPropertyName(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.RaisePropertyChanged(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.RaisePropertyChanged&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.GetPropertyName&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(System.String, T, T)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.PropertyChangedHandler</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.PropertyChanged</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.html">Sales4Pro.SalesCenter.BaseViewModels</a></h6>
+  <h6><strong>Assembly</strong>: Sales4Pro.SalesCenter.BaseViewModels.dll</h6>
+  <h5 id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SCFilterViewModelBase : MainViewModelBase, INotifyPropertyChanged, ICleanup</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_CurrentFilterString.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.CurrentFilterString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.BaseViewModels/ViewModels/Filter/SCFilterViewModelBase.cs/#L69">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_CurrentFilterString_" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.CurrentFilterString*"></a>
+  <h4 id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_CurrentFilterString" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.CurrentFilterString">CurrentFilterString</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CurrentFilterString { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_CurrentTextFilterString.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.CurrentTextFilterString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.BaseViewModels/ViewModels/Filter/SCFilterViewModelBase.cs/#L95">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_CurrentTextFilterString_" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.CurrentTextFilterString*"></a>
+  <h4 id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_CurrentTextFilterString" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.CurrentTextFilterString">CurrentTextFilterString</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CurrentTextFilterString { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_IsDropTargetEnabled.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.IsDropTargetEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.BaseViewModels/ViewModels/Filter/SCFilterViewModelBase.cs/#L44">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_IsDropTargetEnabled_" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.IsDropTargetEnabled*"></a>
+  <h4 id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_IsDropTargetEnabled" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.IsDropTargetEnabled">IsDropTargetEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDropTargetEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_IsSearchActive.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.IsSearchActive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.BaseViewModels/ViewModels/Filter/SCFilterViewModelBase.cs/#L55">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_IsSearchActive_" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.IsSearchActive*"></a>
+  <h4 id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_IsSearchActive" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.IsSearchActive">IsSearchActive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSearchActive { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_IsSearchHitsPaneVisible.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.IsSearchHitsPaneVisible%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.BaseViewModels/ViewModels/Filter/SCFilterViewModelBase.cs/#L30">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_IsSearchHitsPaneVisible_" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.IsSearchHitsPaneVisible*"></a>
+  <h4 id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_IsSearchHitsPaneVisible" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.IsSearchHitsPaneVisible">IsSearchHitsPaneVisible</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsSearchHitsPaneVisible { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_SelectedFilters.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.SelectedFilters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.BaseViewModels/ViewModels/Filter/SCFilterViewModelBase.cs/#L19">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_SelectedFilters_" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.SelectedFilters*"></a>
+  <h4 id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_SelectedFilters" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.SelectedFilters">SelectedFilters</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;SCFilterEntryViewModel&gt; SelectedFilters { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterEntryViewModel.html">SCFilterEntryViewModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_AddOrReplaceFilter_Sales4Pro_SalesCenter_BaseViewModels_SCFilterEntryViewModel_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.AddOrReplaceFilter(Sales4Pro.SalesCenter.BaseViewModels.SCFilterEntryViewModel%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.BaseViewModels/ViewModels/Filter/SCFilterViewModelBase.cs/#L114">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_AddOrReplaceFilter_" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.AddOrReplaceFilter*"></a>
+  <h4 id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_AddOrReplaceFilter_Sales4Pro_SalesCenter_BaseViewModels_SCFilterEntryViewModel_System_Boolean_System_Boolean_" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.AddOrReplaceFilter(Sales4Pro.SalesCenter.BaseViewModels.SCFilterEntryViewModel,System.Boolean,System.Boolean)">AddOrReplaceFilter(SCFilterEntryViewModel, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddOrReplaceFilter(SCFilterEntryViewModel filterEntryViewModel, bool removeFallbackFilter, bool raiseFilterChanged)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterEntryViewModel.html">SCFilterEntryViewModel</a></td>
+        <td><span class="parametername">filterEntryViewModel</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">removeFallbackFilter</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">raiseFilterChanged</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RaiseFilterChanged.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.RaiseFilterChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.BaseViewModels/ViewModels/Filter/SCFilterViewModelBase.cs/#L199">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RaiseFilterChanged_" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.RaiseFilterChanged*"></a>
+  <h4 id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RaiseFilterChanged" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.RaiseFilterChanged">RaiseFilterChanged()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RaiseFilterChanged()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RemoveAllFilters_System_Boolean_.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.RemoveAllFilters(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.BaseViewModels/ViewModels/Filter/SCFilterViewModelBase.cs/#L169">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RemoveAllFilters_" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.RemoveAllFilters*"></a>
+  <h4 id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RemoveAllFilters_System_Boolean_" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.RemoveAllFilters(System.Boolean)">RemoveAllFilters(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveAllFilters(bool raiseFilterChanged)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">raiseFilterChanged</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RemoveFilter_Sales4Pro_SalesCenter_BaseViewModels_SCFilterEntryViewModel_.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.RemoveFilter(Sales4Pro.SalesCenter.BaseViewModels.SCFilterEntryViewModel)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.BaseViewModels/ViewModels/Filter/SCFilterViewModelBase.cs/#L154">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RemoveFilter_" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.RemoveFilter*"></a>
+  <h4 id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RemoveFilter_Sales4Pro_SalesCenter_BaseViewModels_SCFilterEntryViewModel_" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.RemoveFilter(Sales4Pro.SalesCenter.BaseViewModels.SCFilterEntryViewModel)">RemoveFilter(SCFilterEntryViewModel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveFilter(SCFilterEntryViewModel filterEntryViewModel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterEntryViewModel.html">SCFilterEntryViewModel</a></td>
+        <td><span class="parametername">filterEntryViewModel</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RemoveFilterType_Sales4Pro_SalesCenter_BaseViewModels_SCFilterTypesEnum_.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.RemoveFilterType(Sales4Pro.SalesCenter.BaseViewModels.SCFilterTypesEnum)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.BaseViewModels/ViewModels/Filter/SCFilterViewModelBase.cs/#L188">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RemoveFilterType_" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.RemoveFilterType*"></a>
+  <h4 id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RemoveFilterType_Sales4Pro_SalesCenter_BaseViewModels_SCFilterTypesEnum_" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.RemoveFilterType(Sales4Pro.SalesCenter.BaseViewModels.SCFilterTypesEnum)">RemoveFilterType(SCFilterTypesEnum)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveFilterType(SCFilterTypesEnum filterType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.SalesCenter.BaseViewModels.SCFilterTypesEnum.html">SCFilterTypesEnum</a></td>
+        <td><span class="parametername">filterType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RemoveTextFilter_System_Boolean_.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.RemoveTextFilter(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.BaseViewModels/ViewModels/Filter/SCFilterViewModelBase.cs/#L180">View Source</a>
+  </span>
+  <a id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RemoveTextFilter_" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.RemoveTextFilter*"></a>
+  <h4 id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RemoveTextFilter_System_Boolean_" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.RemoveTextFilter(System.Boolean)">RemoveTextFilter(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveTextFilter(bool raiseFilterChanged)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">raiseFilterChanged</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_FilterChanged.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.FilterChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.BaseViewModels/ViewModels/Filter/SCFilterViewModelBase.cs/#L12">View Source</a>
+  </span>
+  <h4 id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_FilterChanged" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.FilterChanged">FilterChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler FilterChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RulesChanged.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.RulesChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.BaseViewModels/ViewModels/Filter/SCFilterViewModelBase.cs/#L14">View Source</a>
+  </span>
+  <h4 id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_RulesChanged" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.RulesChanged">RulesChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler RulesChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_SyncFilterChanged.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.SyncFilterChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.BaseViewModels/ViewModels/Filter/SCFilterViewModelBase.cs/#L13">View Source</a>
+  </span>
+  <h4 id="Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase_SyncFilterChanged" data-uid="Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase.SyncFilterChanged">SyncFilterChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler SyncFilterChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">GalaSoft.MvvmLight.ICleanup</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_SalesCenter_BaseViewModels_SCFilterViewModelBase.md&amp;value=---%0Auid%3A%20Sales4Pro.SalesCenter.BaseViewModels.SCFilterViewModelBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.SalesCenter.BaseViewModels/ViewModels/Filter/SCFilterViewModelBase.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

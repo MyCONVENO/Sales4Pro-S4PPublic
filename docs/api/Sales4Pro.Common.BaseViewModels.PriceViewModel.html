@@ -1,0 +1,676 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PriceViewModel
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PriceViewModel
+   ">
+    <meta name="generator" content="docfx 2.56.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel">
+  
+  
+  <h1 id="Sales4Pro_Common_BaseViewModels_PriceViewModel" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel" class="text-break">Class PriceViewModel
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">GalaSoft.MvvmLight.ObservableObject</span></div>
+    <div class="level2"><span class="xref">GalaSoft.MvvmLight.ViewModelBase</span></div>
+    <div class="level3"><a class="xref" href="Sales4Pro.Common.BaseViewModels.MainViewModelBase.html">MainViewModelBase</a></div>
+    <div class="level4"><a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html">BaseDataViewModelBase</a></div>
+    <div class="level5"><span class="xref">PriceViewModel</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">GalaSoft.MvvmLight.ICleanup</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html#Sales4Pro_Common_BaseViewModels_BaseDataViewModelBase_IsDeleted">BaseDataViewModelBase.IsDeleted</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html#Sales4Pro_Common_BaseViewModels_BaseDataViewModelBase_IsModified">BaseDataViewModelBase.IsModified</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html#Sales4Pro_Common_BaseViewModels_BaseDataViewModelBase_SyncDateTime">BaseDataViewModelBase.SyncDateTime</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html#Sales4Pro_Common_BaseViewModels_BaseDataViewModelBase_SyncDateTimeTicks">BaseDataViewModelBase.SyncDateTimeTicks</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.BaseDataViewModelBase.html#Sales4Pro_Common_BaseViewModels_BaseDataViewModelBase_RaisePropertyChangedAllProps">BaseDataViewModelBase.RaisePropertyChangedAllProps()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sales4Pro.Common.BaseViewModels.MainViewModelBase.html#Sales4Pro_Common_BaseViewModels_MainViewModelBase_AppVM">MainViewModelBase.AppVM</a>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Cleanup()</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Broadcast&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.RaisePropertyChanged&lt;T&gt;(System.String, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.RaisePropertyChanged&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(System.String, T, T, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.Set&lt;T&gt;(T, T, System.Boolean, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.IsInDesignMode</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.IsInDesignModeStatic</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ViewModelBase.MessengerInstance</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.VerifyPropertyName(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.RaisePropertyChanged(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.RaisePropertyChanged&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.GetPropertyName&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(System.Linq.Expressions.Expression&lt;System.Func&lt;T&gt;&gt;, T, T)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(System.String, T, T)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.Set&lt;T&gt;(T, T, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.PropertyChangedHandler</span>
+    </div>
+    <div>
+      <span class="xref">GalaSoft.MvvmLight.ObservableObject.PropertyChanged</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Sales4Pro.Common.BaseViewModels.html">Sales4Pro.Common.BaseViewModels</a></h6>
+  <h6><strong>Assembly</strong>: Sales4Pro.Common.BaseViewModels.dll</h6>
+  <h5 id="Sales4Pro_Common_BaseViewModels_PriceViewModel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PriceViewModel : BaseDataViewModelBase, INotifyPropertyChanged, ICleanup</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_PriceViewModel__ctor_Sales4Pro_Common_BaseViewModels_SizerunViewModel_.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.PriceViewModel.%23ctor(Sales4Pro.Common.BaseViewModels.SizerunViewModel)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Price/PriceViewModel.cs/#L29">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_PriceViewModel__ctor_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.#ctor*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_PriceViewModel__ctor_Sales4Pro_Common_BaseViewModels_SizerunViewModel_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.#ctor(Sales4Pro.Common.BaseViewModels.SizerunViewModel)">PriceViewModel(SizerunViewModel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PriceViewModel(SizerunViewModel parent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.SizerunViewModel.html">SizerunViewModel</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_PriceViewModel__ctor_Sales4Pro_Common_SyncData_Models_PricePricelist_Join_Sales4Pro_Common_BaseViewModels_SizerunViewModel_.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.PriceViewModel.%23ctor(Sales4Pro.Common.SyncData.Models.PricePricelist_Join%2CSales4Pro.Common.BaseViewModels.SizerunViewModel)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Price/PriceViewModel.cs/#L34">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_PriceViewModel__ctor_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.#ctor*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_PriceViewModel__ctor_Sales4Pro_Common_SyncData_Models_PricePricelist_Join_Sales4Pro_Common_BaseViewModels_SizerunViewModel_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.#ctor(Sales4Pro.Common.SyncData.Models.PricePricelist_Join,Sales4Pro.Common.BaseViewModels.SizerunViewModel)">PriceViewModel(PricePricelist_Join, SizerunViewModel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PriceViewModel(PricePricelist_Join price, SizerunViewModel parent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.SyncData.Models.PricePricelist_Join.html">PricePricelist_Join</a></td>
+        <td><span class="parametername">price</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.SizerunViewModel.html">SizerunViewModel</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_PriceViewModel__ctor_Sales4Pro_Common_SyncData_SyncModels_SyncShoppingCartItem_Sales4Pro_Common_BaseViewModels_SizerunViewModel_.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.PriceViewModel.%23ctor(Sales4Pro.Common.SyncData.SyncModels.SyncShoppingCartItem%2CSales4Pro.Common.BaseViewModels.SizerunViewModel)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Price/PriceViewModel.cs/#L41">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_PriceViewModel__ctor_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.#ctor*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_PriceViewModel__ctor_Sales4Pro_Common_SyncData_SyncModels_SyncShoppingCartItem_Sales4Pro_Common_BaseViewModels_SizerunViewModel_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.#ctor(Sales4Pro.Common.SyncData.SyncModels.SyncShoppingCartItem,Sales4Pro.Common.BaseViewModels.SizerunViewModel)">PriceViewModel(SyncShoppingCartItem, SizerunViewModel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PriceViewModel(SyncShoppingCartItem item, SizerunViewModel parent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.SyncData.SyncModels.SyncShoppingCartItem.html">SyncShoppingCartItem</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.SizerunViewModel.html">SizerunViewModel</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_PriceViewModel_BuyingPrice.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.PriceViewModel.BuyingPrice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Price/PriceViewModel.cs/#L54">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_PriceViewModel_BuyingPrice_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.BuyingPrice*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_PriceViewModel_BuyingPrice" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.BuyingPrice">BuyingPrice</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double BuyingPrice { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_PriceViewModel_ComputeBuyingPriceText.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.PriceViewModel.ComputeBuyingPriceText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Price/PriceViewModel.cs/#L76">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_PriceViewModel_ComputeBuyingPriceText_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.ComputeBuyingPriceText*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_PriceViewModel_ComputeBuyingPriceText" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.ComputeBuyingPriceText">ComputeBuyingPriceText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ComputeBuyingPriceText { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_PriceViewModel_ComputeBuyingSalesPriceText.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.PriceViewModel.ComputeBuyingSalesPriceText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Price/PriceViewModel.cs/#L81">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_PriceViewModel_ComputeBuyingSalesPriceText_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.ComputeBuyingSalesPriceText*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_PriceViewModel_ComputeBuyingSalesPriceText" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.ComputeBuyingSalesPriceText">ComputeBuyingSalesPriceText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ComputeBuyingSalesPriceText { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_PriceViewModel_ComputedBuyingPrice.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.PriceViewModel.ComputedBuyingPrice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Price/PriceViewModel.cs/#L96">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_PriceViewModel_ComputedBuyingPrice_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.ComputedBuyingPrice*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_PriceViewModel_ComputedBuyingPrice" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.ComputedBuyingPrice">ComputedBuyingPrice</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double ComputedBuyingPrice { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_PriceViewModel_ComputeOrderItemCardBuyingValueText.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.PriceViewModel.ComputeOrderItemCardBuyingValueText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Price/PriceViewModel.cs/#L86">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_PriceViewModel_ComputeOrderItemCardBuyingValueText_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.ComputeOrderItemCardBuyingValueText*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_PriceViewModel_ComputeOrderItemCardBuyingValueText" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.ComputeOrderItemCardBuyingValueText">ComputeOrderItemCardBuyingValueText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ComputeOrderItemCardBuyingValueText { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_PriceViewModel_ComputePriceHeaderText.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.PriceViewModel.ComputePriceHeaderText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Price/PriceViewModel.cs/#L91">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_PriceViewModel_ComputePriceHeaderText_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.ComputePriceHeaderText*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_PriceViewModel_ComputePriceHeaderText" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.ComputePriceHeaderText">ComputePriceHeaderText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ComputePriceHeaderText { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_PriceViewModel_Parent.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.PriceViewModel.Parent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Price/PriceViewModel.cs/#L66">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_PriceViewModel_Parent_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.Parent*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_PriceViewModel_Parent" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.Parent">Parent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SizerunViewModel Parent { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.BaseViewModels.SizerunViewModel.html">SizerunViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_PriceViewModel_SalesPrice.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.PriceViewModel.SalesPrice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Price/PriceViewModel.cs/#L60">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_PriceViewModel_SalesPrice_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.SalesPrice*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_PriceViewModel_SalesPrice" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.SalesPrice">SalesPrice</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double SalesPrice { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_PriceViewModel_GetModel.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.PriceViewModel.GetModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Price/PriceViewModel.cs/#L160">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_PriceViewModel_GetModel_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.GetModel*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_PriceViewModel_GetModel" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.GetModel">GetModel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SyncMetadataPrice GetModel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.SyncData.Models.SyncMetadataPrice.html">SyncMetadataPrice</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_PriceViewModel_PasteMetadataToViewModel_Sales4Pro_Common_SyncData_SyncModels_SyncShoppingCartItem_.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.PriceViewModel.PasteMetadataToViewModel(Sales4Pro.Common.SyncData.SyncModels.SyncShoppingCartItem)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Price/PriceViewModel.cs/#L136">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_PriceViewModel_PasteMetadataToViewModel_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.PasteMetadataToViewModel*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_PriceViewModel_PasteMetadataToViewModel_Sales4Pro_Common_SyncData_SyncModels_SyncShoppingCartItem_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.PasteMetadataToViewModel(Sales4Pro.Common.SyncData.SyncModels.SyncShoppingCartItem)">PasteMetadataToViewModel(SyncShoppingCartItem)</h4>
+  <div class="markdown level1 summary"><p>MC 21.09.2020</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PasteMetadataToViewModel(SyncShoppingCartItem syncShoppingCartItem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sales4Pro.Common.SyncData.SyncModels.SyncShoppingCartItem.html">SyncShoppingCartItem</a></td>
+        <td><span class="parametername">syncShoppingCartItem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_PriceViewModel_RaisePricePropertiesChanged.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.PriceViewModel.RaisePricePropertiesChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Price/PriceViewModel.cs/#L118">View Source</a>
+  </span>
+  <a id="Sales4Pro_Common_BaseViewModels_PriceViewModel_RaisePricePropertiesChanged_" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.RaisePricePropertiesChanged*"></a>
+  <h4 id="Sales4Pro_Common_BaseViewModels_PriceViewModel_RaisePricePropertiesChanged" data-uid="Sales4Pro.Common.BaseViewModels.PriceViewModel.RaisePricePropertiesChanged">RaisePricePropertiesChanged()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RaisePricePropertiesChanged()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">GalaSoft.MvvmLight.ICleanup</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MyCONVENO/Sales4Pro/new/Revision2020/apiSpec/new?filename=Sales4Pro_Common_BaseViewModels_PriceViewModel.md&amp;value=---%0Auid%3A%20Sales4Pro.Common.BaseViewModels.PriceViewModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MyCONVENO/Sales4Pro/blob/Revision2020/Sales4Pro.Common.BaseViewModels/BaseViewModels/BaseData/Price/PriceViewModel.cs/#L7" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
